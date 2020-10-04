@@ -14,11 +14,8 @@ if operation=='a' or operation=='s' or operation=='m' or operation=='d' or opera
         outcome=str(math_x*math_y)
         print(x+' times '+y+' equals '+outcome)
     if operation=='d':
-        if math_y != 0:
             outcome=str(math_x/math_y)
             print(x+' divided '+y+' equals '+outcome)
-        else: 
-            print('You cant divide by zero!')
     if operation=='e':
         outcome=str(math_x**math_y)
         print(x+' to the power of '+y+' equals '+outcome)
